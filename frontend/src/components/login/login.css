@@ -1,0 +1,64 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20;
+  padding: 0;
+  background-image: url('https://www.bhartenduassociates.com/wp-content/uploads/2023/12/b2.jpg');
+  opacity: 0.9; /* Add your image URL here */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+input {
+    margin-bottom: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            font-size: 16px;
+            outline: none;
+  } /* Add margin at the bottom of each input container */
+  label{
+    text-align: center;
+  }
+  
+  
+  
+  
+ h1{
+  color: #45a049;
+ }
+ 
+
+  
+  .text{
+    text-align: left;
+    margin-bottom: 10px;
+  }
+.button[type="submit"]:hover {
+    background-color: #45a049;
+}
+button {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+  background-color: green;
+  border-radius: 5px;
+  margin: 0px 20px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 80px;
+}

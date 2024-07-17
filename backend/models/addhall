@@ -1,0 +1,29 @@
+// hallModel.js
+
+const mongoose = require('mongoose');
+
+// Define the schema for the Hall model
+const hallSchema = new mongoose.Schema({
+  image:
+  {
+    type: URL,
+    required :true
+  },
+  name: {
+    type: String,
+    required: true
+  },
+  location: {
+    type: String,
+    required: true
+  },
+  description: {
+    type: String,
+    required: true
+  }
+});
+
+// Create a Mongoose model based on the schema
+const Halls = mongoose.model('Halls', hallSchema);
+
+module.exports = Halls;

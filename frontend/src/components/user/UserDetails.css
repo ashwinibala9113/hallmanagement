@@ -1,0 +1,79 @@
+
+
+.containing {
+    width: 100%;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin: 50px 50px;
+    background-color: #a3ae69; /* Background color for the container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+button[type='back'] {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px; /* Add margin at the top of the button */
+  }
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.user-details {
+    background-color: #f0f0f0; /* Background color for user details section */
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.user-details h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.user-details hr {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 10px 0;
+}
+
+.payment-form {
+    margin-top: 20px;
+}
+
+.payment-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.payment-form input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.pay-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pay-button:hover {
+    background-color: #0056b3;
+}

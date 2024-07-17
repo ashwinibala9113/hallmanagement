@@ -1,0 +1,51 @@
+
+.contains-view {
+    margin-block-start: 1000px;
+    /*margin-top: 1500px;*/
+    margin-right: 300px;
+    margin-left: 300px;
+    background-color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+    padding:  100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      margin-bottom: 20px;
+    }
+    
+    
+    .link {
+      text-decoration: none;
+      color: #333;
+      padding: 10px 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      margin: 0 20px;
+      display: inline-block;
+    }
+    
+    .confirmation-message {
+      font-size: 20px;
+      font-weight: bold;
+      color: green;
+      margin-bottom: 20px;
+    }
+    
+    .action-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: #fff;
+      cursor: pointer;
+    }
+    
+    .action-button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+    

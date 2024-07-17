@@ -1,0 +1,93 @@
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.organizer-box {
+    background-color: #3498db;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.hall {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.hall-name {
+    font-size: 18px;
+}
+
+.button-container {
+    display: flex;
+}
+
+.delete-btn,
+.edit-btn,
+.add-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover,
+.edit-btn:hover,
+.add-btn:hover {
+    background-color: #c0392b;
+}
+
+.edit-btn {
+    background-color: #f39c12;
+}
+
+.edit-btn:hover {
+    background-color: #d68910;
+}
+
+.add-btn {
+    background-color: #27ae60;
+}
+
+.add-btn:hover {
+    background-color: #219d54;
+}
+.details-btn {
+    background-color: #3498db; /* Set the default background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.details-btn:hover {
+    background-color: #2980b9; /* Change background color on hover */
+}
+.background-image {
+    background-image: url('https://watermark.lovepik.com/photo/20211124/large/lovepik-wedding-banquet-hall-picture_500902006.jpg'); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 800px; /* Set the maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 40px; /* Add padding for better spacing */
+    background-color: white; /* Set the background color to white */
+    border-radius: 10px; /* Add some border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a slight shadow for depth */
+}
